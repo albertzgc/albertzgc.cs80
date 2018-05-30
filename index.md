@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Home</title>
+<style type = "text/css">
+body {margin:0; font-family: tahoma, helvetica, sans-serif; }
+#wrapper{margin:0 auto; width:1100px;}
 
-You can use the [editor on GitHub](https://github.com/albertzgc/albertzgc.cs80/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-### Markdown
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="auckland.html">Auckland</a>
+  <a href="christchurch.html">Christchurch</a>
+  <a href="mtcook.html">Mt. Cook/Franz Josef</a>
+  <a href="queenstown.html">Queenstown</a>
+  <a href="importantinfo.html">Important Info</a>
+  <a href="about.html">About</a>
+</div>
 
-```markdown
-Syntax highlighted code block
+<div style="padding-left:16px">
+  <h1>Kia Ora! (means "hello" in Maori)</h1>
+  <h1>Welcome to New Zealand! (also known as Middle Earth!)</h1>
+  <img src="legos.jpg" alt="Gandalf and Frodo lego" width="700">
+  <h2>This website will review the top 5 activities from my recent trip to New Zealand for Auckland (North Island), Christchurch (South Island), Mt. Cook/Franz Josef (South Island, West Coast), and last but not least, Queenstown (South Island)</h2>
+  <h3>Links</h3>
+  <ul>
+	<li><a href = "http://www.skftravels.com/auckland.html">Auckland (North Island)</a></li>
+	<li><a href = "http://www.skftravels.com/christchurch.html">Christchurch (South Island)</a></li>
+	<li><a href = "http://www.skftravels.com/mtcook.html">Mt. Cook/Franz Josef (South Island, West Coast)</a></li>
+	<li><a href = "http://www.skftravels.com/queenstown.html">Queenstown (South Island)</a></li>
+	<li><a href = "http://www.skftravels.com/importantinfo.html">Important Info</a></li>
+	<li><a href = "http://www.skftravels.com/about.html">About</a></li>
+</ul>
+	
+ <p>&copy;2017 SKF Travels</p>
+ </div>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/albertzgc/albertzgc.cs80/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
